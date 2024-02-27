@@ -2423,10 +2423,14 @@ header .logo a {
 
 .email-anchor{
 	text-decoration: none;
-	color: white;
+	color: white !important;
 	font-size: 3rem;
 	margin: 0 auto;
 	width: fit-content;
+	cursor: pointer;
+}
+.email-anchor:hover{
+	color: #008080 !important;
 	cursor: pointer;
 }
 
